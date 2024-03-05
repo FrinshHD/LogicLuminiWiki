@@ -2,13 +2,13 @@
 <!DOCTYPE instance-profile
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
 
-<instance-profile id="logiclumini"
-                  name="LogicLumini Studios Wiki"
-                  start-page="home.md">
+<instance-profile id="anturniaquests"
+                  name="AnturniaQuests Wiki"
+                  start-page="anturniaquests-home.md">
 
     <toc-element topic="Config-yml-Configuration.md"/>
     <toc-element topic="Storylines-yml-Configuration.md"/>
-    <toc-element topic="home.md"/>
+    <toc-element topic="anturniaquests-home.md"/>
     <toc-element topic="Minecraft-stuff.md"/>
     <toc-element topic="PlaceholderAPI-support.md"/>
     <toc-element topic="Quests-yml-Configuration.md"/>

@@ -10,8 +10,8 @@ permissions:
   pages: write
 
 env:
-  INSTANCE: 'Writerside/logiclumini'
-  ARTIFACT: 'webHelpLOGICLUMINI2-all.zip'
+  INSTANCE: 'Writerside/anturniaquests'
+  ARTIFACT: 'webHelpANTURNIAQUESTS2-all.zip'
   DOCKER_VERSION: '233.14389'
 
 jobs:
