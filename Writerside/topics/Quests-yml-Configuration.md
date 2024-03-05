@@ -65,7 +65,7 @@ To create a new quest, you need to define various parameters to specify its char
             amount: 2
         commands:
           - name: "1x Diamond Sword"
-            command: "/give %player% diamond_sword"
+            command: "/give %\player% diamond_sword"
         money: 2
       ```
 
