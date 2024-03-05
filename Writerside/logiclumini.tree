@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE instance-profile
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
+
+<instance-profile id="logiclumini"
+                  name="LogicLumini Studios Wiki"
+                  start-page="home.md">
+
+    <toc-element topic="home.md"/>
+    <toc-element topic="Quests-yml-Configuration.md"/>
+
+</instance-profile>
