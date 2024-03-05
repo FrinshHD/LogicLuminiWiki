@@ -4,3 +4,9 @@ At Logiclumini Studios, we're all about making Minecraft experiences truly speci
 
 **Website:** [https://logic.frinshy.me](https://logic.frinshy.me)  
 **Discord:** [https://logic.frinshy.me/discord](https://logic.frinshy.me  )
+
+### Projects
+#### AnturniaQuests
+- **SpigotMC**: [](https://www.spigotmc.org/resources/anturniaquests.113784/)  
+- **Github**: [](https://github.com/FrinshHD/AnturniaQuests)  
+- **Wiki**: [](https://logic-wiki.frinshy.me/anturniaquests)  
