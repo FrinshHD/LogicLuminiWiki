@@ -6,6 +6,8 @@
                   name="LogicLumini Studios Wiki"
                   start-page="home.md">
 
+    <toc-element topic="Config-yml-Configuration.md"/>
+    <toc-element topic="Storylines-yml-Configuration.md"/>
     <toc-element topic="home.md"/>
     <toc-element topic="Quests-yml-Configuration.md"/>
 
