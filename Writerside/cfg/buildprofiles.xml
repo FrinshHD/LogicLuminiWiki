@@ -15,9 +15,4 @@
         <link href="https://logic.frinshy.me/legalnotice.html">Legal Notice</link>
         <link href="https://logic.frinshy.me/privacypolicy.html">Privacy Policy</link>
     </footer>
-    <build-profile instance="logiclumini">
-        <variables>
-            <noindex-content>true</noindex-content>
-        </variables>
-    </build-profile>
 </buildprofiles>
