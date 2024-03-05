@@ -5,6 +5,6 @@ Quests configuration file help: [](https://logic-wiki.frinshy.me/quests-yml-conf
 Storylines configuration file help: [](https://logic-wiki.frinshy.me/storylines-yml-configuration.html)
 
 ### Minecraft stuff:
-- [Sounds](https://github.com/FrinshHD/AnturniaQuests/wiki/Sounds-to-use)
-- [Entities](https://github.com/FrinshHD/AnturniaQuests/wiki/Entities-to-use)
-- [Items / Materials](https://github.com/FrinshHD/AnturniaQuests/wiki/Items-to-use)
+- [Sounds](https://logic-wiki.frinshy.me/minecraft-stuff.html#sounds)
+- [Entities](https://logic-wiki.frinshy.me/minecraft-stuff.html#entities)
+- [Items / Materials](https://logic-wiki.frinshy.me/minecraft-stuff.html#items-materials)
