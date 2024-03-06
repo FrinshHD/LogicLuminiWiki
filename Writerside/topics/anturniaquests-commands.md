@@ -1,0 +1,10 @@
+# AnturniaQuests - commands
+
+### User commands
+- `/quests`: Open the ingame quest menu
+- `/quests version`: Get the currently installed version of AnturniaQuests
+- `/quests help`: Get the help message
+
+### Admin commands
+- `/quests reload`: Reload the plugin configs
+- `/quests reset \<player> \<questID>`: Reset the quest completions for the player \<player> for the quest with the id \<questID>

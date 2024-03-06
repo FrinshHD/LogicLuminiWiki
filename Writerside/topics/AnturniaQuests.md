@@ -6,6 +6,9 @@ AnturniaQuests is a versatile quest plugin for Minecraft, allowing server admini
 **Quests.yml** configuration file help: [](https://logic-wiki.frinshy.me/quests-yml-configuration)  
 **Storylines.yml** configuration file help: [](https://logic-wiki.frinshy.me/storylines-yml-configuration)
 
+**Commands**: [](https://logic-wiki.frinshy.me/anturniaquests-commands)  
+**Permissions**: [](https://logic-wiki.frinshy.me/anturniaquests-permissions)  
+
 PlaceholderAPI placeholder: [](https://logic-wiki.frinshy.me/placeholderapi-support)
 
 **Minecraft stuff:**
