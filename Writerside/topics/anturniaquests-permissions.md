@@ -1,4 +1,4 @@
-# AnturniaQuests - permissions
+# Permissions
 
 ### User permissions:
 - `anturniaquests.command.open`: permission to execute the /quests command

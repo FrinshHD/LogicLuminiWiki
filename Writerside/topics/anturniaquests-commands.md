@@ -1,4 +1,4 @@
-# AnturniaQuests - commands
+# Commands
 
 ### User commands
 - `/quests`: Open the ingame quest menu
