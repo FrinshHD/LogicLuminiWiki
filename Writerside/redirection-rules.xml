@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rules SYSTEM "https://resources.jetbrains.com/writerside/1.0/redirection-rules.dtd">
+<rules>
+    <!-- format is as follows
+    <rule id="<unique id>">
+        <accepts>page.html</accepts>
+    </rule>
+    -->
+    <rule id="6625d2ff">
+        <description>Created after removal of "test" from LogicLumini Studios Wiki</description>
+        <accepts>test.html</accepts>
+    </rule>
+    <rule id="12c2926f">
+        <description>Created after removal of "Welcome to the AnturniaQuests wiki" from LogicLumini Studios Wiki
+        </description>
+        <accepts>home.html</accepts>
+    </rule>
+</rules>

@@ -4,13 +4,15 @@
 
 <instance-profile id="logiclumini"
                   name="LogicLumini Studios Wiki"
-                  start-page="home.md">
+                  start-page="Welcome-to-the-WIki.md">
 
-    <toc-element topic="Config-yml-Configuration.md"/>
-    <toc-element topic="Storylines-yml-Configuration.md"/>
-    <toc-element topic="home.md"/>
+    <toc-element topic="Welcome-to-the-WIki.md"/>
+    <toc-element topic="AnturniaQuests.md">
+        <toc-element topic="Config-yml-Configuration.md"/>
+        <toc-element topic="Quests-yml-Configuration.md"/>
+        <toc-element topic="Storylines-yml-Configuration.md"/>
+        <toc-element topic="PlaceholderAPI-support.md"/>
+    </toc-element>
     <toc-element topic="Minecraft-stuff.md"/>
-    <toc-element topic="PlaceholderAPI-support.md"/>
-    <toc-element topic="Quests-yml-Configuration.md"/>
 
 </instance-profile>
