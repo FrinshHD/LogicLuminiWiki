@@ -42,6 +42,10 @@ To create a new storyline, you need to define various parameters to specify its 
                 sound: ENTITY_EXPERIENCE_ORB_PICKUP
                 volume: 50
                 pitch: 1
+              actions:
+                - message: "hi2"
+                - message: "hi3"
+                  delay: 10
             - message: "hi2"
             - command: "give %\player% emerald 1"
               delay: 20 #in ticks (one second is equal to 20 ticks)
