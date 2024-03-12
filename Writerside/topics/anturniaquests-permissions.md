@@ -7,5 +7,6 @@
 
 ### Administration permission
 - `anturniaquests.command.admin.reload`: permission to execute the /quests reload command
+- `anturniaquests.command.admin.itemInfo`: permission to execute the /quests iteminfo command
 - `anturniaquests.command.admin.reset`: permission to execute the /quests reset command
 - `anturniaquests.admin.updateNotify`: permission to get notified when a new update is avaliable
