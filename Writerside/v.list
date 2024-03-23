@@ -2,4 +2,6 @@
 <!DOCTYPE vars SYSTEM "https://resources.jetbrains.com/writerside/1.0/vars.dtd">
 <vars>
     <var name="product" value="Writerside"/>
+    <var name="siteUrl" value="https://logic-wiki.anturnia.net/"/>
+    <var name="mainSiteUrl" value="https://logic.anturnia.net/"/>
 </vars>

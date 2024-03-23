@@ -2,17 +2,17 @@
                xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/build-profiles.xsd">
     <variables>
         <primary-color>iris</primary-color>
-        <product-web-url>https://logic.frinshy.me</product-web-url>
+        <product-web-url>%mainSiteUrl%</product-web-url>
         <download-title>Join our Discord</download-title>
-        <download-page>https://logic.frinshy.me/discord</download-page>
+        <download-page>%mainSiteUrl%discord</download-page>
         <showDownloadButton>true</showDownloadButton>
-        <custom-favicons>https://logic.frinshy.me/img/logo.png</custom-favicons>
-        <header-logo>https://logic.frinshy.me/img/logiclumini_title.png</header-logo>
+        <custom-favicons>%mainSiteUrl%img/logo.png</custom-favicons>
+        <header-logo>%mainSiteUrl%img/logiclumini_title.png</header-logo>
     </variables>
     <footer>
         <copyright>2024 LogicLumini Studios</copyright>
         <social type="youtube" href="https://www.youtube.com/@frinshhd"/>
-        <link href="https://logic.frinshy.me/legalnotice.html">Legal Notice</link>
-        <link href="https://logic.frinshy.me/privacypolicy.html">Privacy Policy</link>
+        <link href="%mainSiteUrl%legalnotice.html">Legal Notice</link>
+        <link href="%mainSiteUrl%privacypolicy.html">Privacy Policy</link>
     </footer>
 </buildprofiles>
