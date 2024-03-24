@@ -43,7 +43,7 @@ To create a new quest, you need to define various parameters to specify its char
       ```
 
 7. **requirements (required):**
-    - Conditions that must be met to complete the quest. Currently available options are `items` and `killedEntities`.
+    - Conditions that must be met to complete the quest. Currently available options are `items`, `killedEntities`, `placedBlocks`, `destroyedBlocks` and `blockInteractions`.
       ```yaml
       requirements:
         items:
@@ -52,6 +52,26 @@ To create a new quest, you need to define various parameters to specify its char
         killedEntities:
           - entity: ZOMBIE
             amount: 2
+        placedBlocks:
+          - material: DIRT
+            amount: 2
+            worlds:
+              - world
+          - material: STONE
+            amount: 6
+        destroyedBlocks:
+          - material: DIRT
+            amount: 2
+            worlds:
+              - world
+          - material: STONE
+            amount: 6
+        blockInteractions:
+          - location: [-602, 72, 283]
+            world: "world"
+            interactActions:
+              - LEFT_CLICK
+              - RIGHT_CLICK
       ```
 
 8. **rewards (optional):**
