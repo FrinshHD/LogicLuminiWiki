@@ -9,6 +9,6 @@
 - `/quests reload`: Reload the plugin configs
 - `/quests iteminfo`: Gives you information about the item in your main hand, e.g. lore and name that can be used in configs.
   ![](quests_iteminfo_command_example_1.png)
-- `/quests reset \<player> \<questID>`: Reset the quest completions for the player \<player> for the quest with the id \<questID>
-- `/quests storylines reset \<playerName> \<storylineID>`: Resets the completion count of the player \<player> for a storyline \<storylineID>
+- `/quests reset \<player> \[questID]`: Reset the quest completions for the player \<player> for the quest with the id \<questID>
+- `/quests storylines reset \<playerName> \[storylineID]`: Resets the completion count of the player \<player> for a storyline \<storylineID>
 

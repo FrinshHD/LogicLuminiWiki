@@ -43,7 +43,7 @@ To create a new quest, you need to define various parameters to specify its char
       ```
 
 7. **requirements (required):**
-    - Conditions that must be met to complete the quest. Currently available options are `items`, `killedEntities`, `placedBlocks`, `destroyedBlocks` and `blockInteractions`.
+    - Conditions that must be met to complete the quest. Currently available options are `items`, `killedEntities`, `placedBlocks`, `destroyedBlocks`, `blockInteractions` and `reachLocation`.
       ```yaml
       requirements:
         items:
@@ -72,6 +72,10 @@ To create a new quest, you need to define various parameters to specify its char
             interactActions:
               - LEFT_CLICK
               - RIGHT_CLICK
+        reachLocation:
+          - world: world
+            location1: [10, 10, 10]
+            location2: [20, 20, 20]
       ```
 
 8. **rewards (optional):**

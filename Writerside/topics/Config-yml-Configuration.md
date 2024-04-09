@@ -10,9 +10,15 @@ database:
   ip: "127.0.0.1"
   port: 3306
 
+commands:
+  - name: "quests"
+    aliases:
+      - "quest"
+
+questMenuEnabled: true
 #Please note that you also need either Citizens or FancyNPCS installed for storylines to be enabled!
 storylines: true
 
 #This option should only be used for development or dev versions
-debug: true
+debug: false
 ```
