@@ -61,7 +61,7 @@ To create a new storyline, you need to define various parameters to specify its 
             - message: "thx"
       ```
 
-### Explanation of NPC Actions:
+### Explanation of NPC configuration options:
 
 - **NPC Identification (`npcID`):**
     - Each NPC should have a unique identifier (`npcID`) within the storyline. This npcID must be the same your npc plugin (currently Citizens and FancyNPCs are supported) uses to identify this npc.
@@ -69,39 +69,67 @@ To create a new storyline, you need to define various parameters to specify its 
 - **Friendly Name (`friendlyName`):**
     - This parameter assigns a friendly name to the NPC, enhancing readability and context.
 
+- **Group (`group`):**
+    - This parameter makes it possible to complete actions also in another order than they are defined.
+      - Example; all the npcs within the group `greeting-npcs` can be completed in any order but they must be completed before the "end" message:
+        ```yaml
+        - npcID: welcomeNpc
+          actions:
+            - message: "Welcome to this quest"
+        
+        - npcID: helloNpc
+          actions:
+            - message: "hello"
+          group: greeting-npcs
+        
+        - npcID: bonjourNpc
+          actions:
+            - message: "bonjour"
+          group: greeting-npcs
+        
+        - npcID: halloNpc
+          actions:
+            - message: "hallo"
+          group: greeting-npcs
+        
+        - npcID: endNpc
+          actions:
+            - message: "end"
+        ```
+
 - **Actions (`actions`):**
     - The `actions` parameter encapsulates all actions associated with the NPC.
 
-- **Message Action:**
-    - The NPC can display messages to the player.
-        - Example:
-          ```yaml
-          - message: "hi1"
-            clickSound:
-              sound: ENTITY_EXPERIENCE_ORB_PICKUP
-              volume: 50
-              pitch: 1
-          ```
-    - Optionally, you can associate a click sound with the message.
+  - **Message Action:**
+      - The NPC can display messages to the player.
+          - Example:
+            ```yaml
+            - message: "hi1"
+              clickSound:
+                sound: ENTITY_EXPERIENCE_ORB_PICKUP
+                volume: 50
+                pitch: 1
+            ```
+      - Optionally, you can associate a click sound with the message.
 
-- **Command Action:**
-    - The NPC can execute commands.
-        - Example:
-          ```yaml
-          - command: "give %\player% emerald 1"
-            delay: 20 #in ticks (one second is equal to 20 ticks)
-          ```
-        - You can specify a delay (in ticks) between executing consecutive commands.
-        - Optionally, you can associate a click sound with the command.
+  - **Command Action:**
+      - The NPC can execute commands.
+          - Example:
+            ```yaml
+            - command: "give %\player% emerald 1"
+              delay: 20 #in ticks (one second is equal to 20 ticks)
+            ```
+          - You can specify a delay (in ticks) between executing consecutive commands.
+          - Optionally, you can associate a click sound with the command.
 
-- **Quest Action:**
-    - The NPC triggers quest progression but does not progress in the storyline until the quest is completed.
-        - Example:
-          ```yaml
-          - quest: bringPotato
-          ```
-        - This action indicates that interacting with the NPC triggers the quest named "bringPotato".
-        - You can define this quest in the `quests.yml` file.
+  - **Quest Action:**
+      - The NPC triggers quest progression but does not progress in the storyline until the quest is completed.
+          - Example:
+            ```yaml
+            - quest: bringPotato
+            ```
+          - This action indicates that interacting with the NPC triggers the quest named "bringPotato".
+          - You can define this quest in the `quests.yml` file.
 
 ### Example
 ```yaml
