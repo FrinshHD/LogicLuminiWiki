@@ -11,4 +11,6 @@
   ![](quests_iteminfo_command_example_1.png)
 - `/quests reset \<player> \[questID]`: Reset the quest completions for the player \<player> for the quest with the id \<questID>
 - `/quests storylines reset \<playerName> \[storylineID]`: Resets the completion count of the player \<player> for a storyline \<storylineID>
+- `/quests create <questID>`: Create a new quest.
+- `/quests edit <questID>`: Edit a quest.
 
