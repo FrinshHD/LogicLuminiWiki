@@ -3,5 +3,5 @@
 <vars>
     <var name="product" value="Writerside"/>
     <var name="siteUrl" value="https://logic-wiki.anturnia.net/"/>
-    <var name="mainSiteUrl" value="https://logic.anturnia.net/"/>
+    <var name="mainSiteUrl" value="https://logic.codearray.dev/"/>
 </vars>
