@@ -1,13 +1,16 @@
 <buildprofiles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/build-profiles.xsd">
     <variables>
-        <primary-color>iris</primary-color>
+        <primary-color>#6a027a</primary-color>
         <product-web-url>%mainSiteUrl%</product-web-url>
+
+        <custom-favicons>logo.png</custom-favicons>
+        <header-logo>logiclumini_title.png</header-logo>
+
         <download-title>Join our Discord</download-title>
         <download-page>%mainSiteUrl%discord</download-page>
         <showDownloadButton>true</showDownloadButton>
-        <custom-favicons>https://logic.codearray.dev/img/logo.png</custom-favicons>
-        <header-logo>https://logic.codearray.dev/img/logiclumini_title.png</header-logo>
+        <noindex-content>false</noindex-content>
     </variables>
     <footer>
         <copyright>2024 LogicLumini Studios</copyright>
