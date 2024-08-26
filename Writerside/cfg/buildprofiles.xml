@@ -6,8 +6,8 @@
         <download-title>Join our Discord</download-title>
         <download-page>%mainSiteUrl%discord</download-page>
         <showDownloadButton>true</showDownloadButton>
-        <custom-favicons>%mainSiteUrl%img/logo.png</custom-favicons>
-        <header-logo>%mainSiteUrl%img/logiclumini_title.png</header-logo>
+        <custom-favicons>"https://logic.codearray.dev/img/logo.png</custom-favicons>
+        <header-logo>"https://logic.codearray.dev/img/logiclumini_title.png</header-logo>
     </variables>
     <footer>
         <copyright>2024 LogicLumini Studios</copyright>
