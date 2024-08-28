@@ -5,7 +5,7 @@
         <product-web-url>%mainSiteUrl%</product-web-url>
 
         <custom-favicons>logo.png</custom-favicons>
-        <header-logo>logiclumini_title.png</header-logo>
+        <header-logo>logo.png</header-logo>
 
         <download-title>Join our Discord</download-title>
         <download-page>%mainSiteUrl%discord</download-page>

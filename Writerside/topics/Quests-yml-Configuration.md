@@ -23,26 +23,32 @@ To create a new quest, you need to define various parameters to specify its char
       ```yaml
       category: combat
       ```
+      
+4. **material (optional):**
+   - Specify the material of the quest item in the menu. If it isn't specified, the first item in the requirements list is used. If there are no requirements, the default material is a book.
+      ```yaml
+      material: PAPER
+      ```
 
-4. **oneTime (optional):**
+5. **oneTime (optional):**
     - Whether the quest can only be completed once (`true`) or can be repeated (`false`). The default value is `false`.
       ```yaml
       oneTime: false
       ``` 
 
-5. **cooldown (optional):**
+6. **cooldown (optional):**
     - Cooldown time before the quest can be repeated, in seconds. The default value is `-1` so no cooldown exists.
       ```yaml 
       cooldown: 120
       ``` 
 
-6. **showCompletions (optional):**
+7. **showCompletions (optional):**
     - Whether to show the player how many times they have already completed the quest. The default value is false when the quest is one-time use; otherwise, it's true. It is displayed in the quest item's lore in the quest menu.
       ```yaml
       showCompletions: true
       ```
 
-7. **requirements (required):**
+8. **requirements (required):**
     - Conditions that must be met to complete the quest. Currently available options are `items`, `killedEntities`, `placedBlocks`, `destroyedBlocks`, `blockInteractions` and `reachLocation`.
       ```yaml
       requirements:
@@ -78,7 +84,7 @@ To create a new quest, you need to define various parameters to specify its char
             location2: [20, 20, 20]
       ```
 
-8. **rewards (optional):**
+9. **rewards (optional):**
     - Rewards granted upon completing the quest. Currently available options are `items`, `commands`, and `money` if you have Vault and an economy plugin installed.
       ```yaml
       rewards:
@@ -93,14 +99,14 @@ To create a new quest, you need to define various parameters to specify its char
         money: 2
       ```
 
-9. **requiredQuests (optional):**
-    - List of quests that must be completed before starting this quest.
-      ```yaml 
-      requiredQuests: 
-        - combat1
-      ```
+10. **requiredQuests (optional):**
+     - List of quests that must be completed before starting this quest.
+       ```yaml 
+       requiredQuests: 
+         - combat1
+       ```
 
-10. **announce (optional):**
+11. **announce (optional):**
     - Whether to send a chat message to all online players when the player has completed this quest. The default value is `false`.
        ```yaml
        announce: true
