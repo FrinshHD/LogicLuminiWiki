@@ -83,6 +83,16 @@ To create a new quest, you need to define various parameters to specify its char
             location1: [10, 10, 10]
             location2: [20, 20, 20]
       ```
+    - **resetType**: 
+      - The type of reset for the requirement. Available options are `NONE`, `ONLY_AMOUNT` and `COMPLETE`. `ONLY_AMOUNT` will only remove the required amount of the quest fromm the database. `COMPLETE` will remove the complete database entry for this quest. The default value is `NONE`.
+        ```yaml
+        requirements:
+          killedEntities:
+            - entity: ZOMBIE
+              amount: 20
+              resetType: ONLY_AMOUNT
+        ``` 
+        This example will only remove 20 zombie kills from the database.
 
 9. **rewards (optional):**
     - Rewards granted upon completing the quest. Currently available options are `items`, `commands`, and `money` if you have Vault and an economy plugin installed.
