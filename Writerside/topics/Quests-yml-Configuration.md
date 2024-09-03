@@ -49,7 +49,7 @@ To create a new quest, you need to define various parameters to specify its char
       ```
 
 8. **requirements (required):**
-    - Conditions that must be met to complete the quest. Currently available options are `items`, `killedEntities`, `placedBlocks`, `destroyedBlocks`, `blockInteractions` and `reachLocation`.
+    - Conditions that must be met to complete the quest. Currently available options are `items`, `killedEntities`, `placedBlocks`, `destroyedBlocks`, `blockInteractions`, `reachLocation`, `mobBreed` and `money`.
       ```yaml
       requirements:
         items:
@@ -82,6 +82,11 @@ To create a new quest, you need to define various parameters to specify its char
           - world: world
             location1: [10, 10, 10]
             location2: [20, 20, 20]
+        mobBreed:
+          - entity: COW
+            amount: 2
+        money:
+          - amount: 10
       ```
     - **resetType**: 
       - The type of reset for the requirement. Available options are `NONE`, `ONLY_AMOUNT` and `COMPLETE`. `ONLY_AMOUNT` will only remove the required amount of the quest fromm the database. `COMPLETE` will remove the complete database entry for this quest. The default value is `NONE`.
