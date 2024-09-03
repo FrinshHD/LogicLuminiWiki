@@ -29,8 +29,14 @@ To create a new storyline, you need to define various parameters to specify its 
       ```yaml 
       timeToComplete: 43
       ```
+      
+5. **maxCurrentPlayers (optional):*
+   - Maximum number of players that can be in the storyline at the same time.
+     ```yaml
+     maxCurrentPlayers: 4
+     ```
 
-5. **npcs (required):**
+6. **npcs (required):**
     - Non-playable characters (NPCs) involved in the storyline and their actions.
       ```yaml
       npcs:
