@@ -15,7 +15,11 @@
         <toc-element topic="anturniaquests-permissions.md"/>
         <toc-element topic="PlaceholderAPI-support.md"/>
     </toc-element>
-    <toc-element topic="LogicLobby.md"/>
+    <toc-element topic="LogicLobby.md">
+        <toc-element topic="Permissions.md"/>
+        <toc-element topic="Commands.md"/>
+        <toc-element topic="Config-yml.md"/>
+    </toc-element>
     <toc-element topic="LogicChatManager.md"/>
     <toc-element topic="Minecraft-stuff.md"/>
 
