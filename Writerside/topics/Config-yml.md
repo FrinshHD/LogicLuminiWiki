@@ -64,11 +64,6 @@ This section defines the items that will be available in the player's hotbar.
 
 This section controls the lobby switching functionality, including the inventory layout and server list.
 
-#### `inventoryRows`
-- **Type**: `Integer`
-- **Default**: `4`
-- **Description**: Defines how many rows are displayed in the lobby switcher inventory.
-
 #### `fillerItem`
 - **Type**: `Object`
     - **`type`**: `String`
