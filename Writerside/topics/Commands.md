@@ -16,4 +16,3 @@
 #### `/lobbyswitcher`
 - **Description**: Opens the lobby switcher menu, allowing the player to switch between lobbies.
 - **Usage**: `/lobbyswitcher`
-```
