@@ -139,5 +139,3 @@ This section configures the database connection used for storing player and lobb
 - **`password`**: The password for database authentication.
 
 ---
-
-This documentation provides an overview of the configuration options available in the `config.yml` file. Adjust these settings to tailor the gameplay and server behavior to your needs.
