@@ -122,6 +122,7 @@ This section controls various game mechanics that affect player interaction.
 - **`noEntityDamage`**: Disables entity damage.
 - **`noEntitySpawn`**: Prevents entity spawning.
 - **`lowestY`**: Sets the lowest Y-coordinate where players can go before death occurs.
+- **`joinGamemode`**: Sets the gamemode on join. Set it to `null` to disable.
 
 ---
 
