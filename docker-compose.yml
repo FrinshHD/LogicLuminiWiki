@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  docs:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        INSTANCE: Writerside/logiclumini
+        ARTIFACT: webHelpLOGICLUMINI2-all.zip
+    ports:
+      - "33002:80"
+    restart: unless-stopped
