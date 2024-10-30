@@ -12,9 +12,6 @@ RUN apk add --no-cache unzip && \
     unzip webHelpCODEARRAY2-all.zip && \
     rm webHelpCODEARRAY2-all.zip
 
-# Copy the custom NGINX configuration file
-COPY nginx.conf /etc/nginx/conf.d/default.conf
-
 # Expose the port for NGINX
 EXPOSE 80
 
