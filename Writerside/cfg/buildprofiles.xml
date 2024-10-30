@@ -1,8 +1,10 @@
 <buildprofiles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/build-profiles.xsd">
     <variables>
-        <primary-color>#6a027a</primary-color>
+        <primary-color>#54176b</primary-color>
         <product-web-url>%mainSiteUrl%</product-web-url>
+        <color-preset>soft</color-preset>
+        <link-color>#712a8c</link-color>
 
         <custom-favicons>logo.png</custom-favicons>
         <header-logo>logo.png</header-logo>
