@@ -1,1 +1,1 @@
-# LogicLumini Wiki
+# CodeArray Wiki
